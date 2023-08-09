@@ -22,7 +22,7 @@ body {
     margin: auto;
     left: 25%;
 }
-/*Results card*/
+
 #results {
     display: flex;
     flex-direction: column;
