@@ -1,0 +1,203 @@
+@media (max-width: 1050px) {
+    #full-card {
+        left: 17%;
+    }
+}
+
+@media (max-width: 700px) {
+    #full-card {
+        left: auto;
+        left: auto;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    #results {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #results-circle {
+        width: 15em;
+        height: 15em;
+    }
+
+    #total-score {
+        font-size: 1.5em;
+    }
+
+    #congratulations {
+        font-size: 2em;
+    }
+
+    #score-percent {
+        font-size: 1.5em;
+        margin: 0 1em 1em 1em;
+    }
+
+    #results-title {
+        font-size: 2em;
+        margin-top: .2em;
+    }
+
+    #score {
+        font-size: 7em;
+    }
+
+    #summary {
+        width: 100%;
+        height: 100%;
+    }
+
+    #summary-title {
+        margin: .5em 0 .5em 1em;
+    }
+
+    .summary-card {
+        width: 30em;
+        font-size: 1.1em;
+    }
+
+    #button {
+        width: 30em;
+        margin: .5em 0 0 0;
+    }
+
+    .attribution {
+        position: absolute;
+        top: 35%;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    #results-title {
+        margin-bottom: .5em;
+    }
+
+    #group {
+        height: 100%;
+    }
+
+    #score {
+        font-size: 4em;
+    }
+
+    #results-circle {
+        width: 10em;
+        height: 10em;
+    }
+
+    #congratulations {
+        margin: .5em 0;
+    }
+
+    #score-percent {
+        margin-bottom: .5em;
+    }
+
+    .attribution {
+        margin-top: 38em;
+        position: absolute;
+    }
+
+    .summary-card {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 450px) {
+    #results-title {
+        font-size: 1.2em;
+    }
+
+    #score {
+        font-size: 4em;
+    }
+
+    #total-score {
+        font-size: 1.2em;
+    }
+
+    #results-circle {
+        width: 10em;
+        height: 10em;
+    }
+
+    #congratulations {
+        margin: .5em 0;
+    }
+
+    #score-percent {
+        font-size: 1.2em;
+        margin-bottom: .1em;
+    }
+
+    .summary-card {
+        width: 20em;
+    }
+
+    #button {
+        width: 22em;
+    }
+
+    .attribution {
+        font-size: .8em;
+        top: 37%;
+    }
+}
+
+@media (max-width: 400px) {
+    #score {
+        font-size: 3em;
+    }
+
+    #results-circle {
+        width: 9em;
+        height: 9em;
+    }
+
+    #score-percent {
+        font-size: 1em;
+    }
+
+    #congratulations {
+        font-size: 1.5em;
+    }
+
+    .summary-card {
+        margin-bottom: .8em;
+    }
+
+    .attribution {
+        font-size: .75em;
+        top: 35%;
+    }
+}
+
+@media (max-width: 370px) {
+    #score {
+        font-size: 2.5em;
+    }
+
+    .summary-card {
+        width: 18em;
+        font-size: 1em;
+    }
+
+    #summary-title {
+        font-size: 1.5em;
+    }
+
+    #button {
+        width: 20em;
+    }
+
+    .attribution {
+        top: 30%;
+    }
+}
